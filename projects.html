@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        body {
+            font-family: 'Orbitron', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0d0d0d;
+            color: #00ffcc;
+            text-align: center;
+            background: linear-gradient(to right, #001921, #003366);
+            overflow-x: hidden;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        header, footer {
+            background: rgba(0, 0, 0, 0.9);
+            color: #00ffcc;
+            padding: 20px;
+            text-transform: uppercase;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            color: #00ffcc;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        nav a:hover {
+            color: #ff6600;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: left;
+        }
+        .projects {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+            margin: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .projects:hover {
+            transform: scale(1.05);
+        }
+        .project-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .project {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+        .project:hover {
+            transform: translateY(-10px);
+        }
+        .project h3 {
+            margin-top: 0;
+        }
+        a {
+            color: #00ffcc;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #ff6600;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Krish Sharma</h1>
+        <nav>
+            <a href="portfolio.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="projects">
+            <h2>My Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <p>
+                        Description of Project 1. This could be a cybersecurity tool or an application.
+                        <br>
+                        <a href="#">View Project</a>
+                    </p>
+                </div>
+                <div class="project">
+                    <h3>Project 2</h3>
+                    <p>
+                        Description of Project 2. Highlight your role and tools used.
+                        <br>
+                        <a href="#">View Project</a>
+                    </p>
+                </div>
+                <div class="project">
+                    <h3>Project 3</h3>
+                    <p>
+                        Description of Project 3. This could include achievements or key takeaways.
+                        <br>
+                        <a href="#">View Project</a>
+                    </p>
+                </div>
+                <div class="project">
+                    <h3>Project 4</h3>
+                    <p>
+                        Description of Project 4. Share links to live demos or GitHub repositories.
+                        <br>
+                        <a href="#">View Project</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Krish Sharma. All rights reserved.</p>
+    </footer>
+</body>
+</html>

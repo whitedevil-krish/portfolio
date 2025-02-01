@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Krish Sharma - Cybersecurity Expert">
+    <meta name="author" content="Krish Sharma">
+    <title>Krish Sharma - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            font-family: 'Orbitron', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0d0d0d;
+            color: #00ffcc;
+            text-align: center;
+            background: linear-gradient(to right, #001921, #003366);
+            overflow-x: hidden;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        header, footer {
+            background: rgba(0, 0, 0, 0.9);
+            color: #00ffcc;
+            padding: 20px;
+            text-transform: uppercase;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            color: #00ffcc;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        nav a:hover {
+            color: #ff6600;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: left;
+        }
+        .intro, .skills, .certifications, .contact, .projects {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+            margin: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .intro:hover, .skills:hover, .certifications:hover, .contact:hover, .projects:hover {
+            transform: scale(1.05);
+        }
+        .skills ul, .certifications ul, .projects ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li, .certifications li, .projects li {
+            padding: 8px;
+        }
+        a {
+            color: #00ffcc;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #ff6600;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Krish Sharma</h1>
+        <nav>
+            <a href="portfolio.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <div class="container"></div>
+        
+            <img src="krish.png" alt="Krish Sharma" style="height: 250px; width: 250px;">
+            <div class="skills animated">
+                
+            <h2>Welcome to My Portfolio</h2>
+            <p>Discover my expertise, projects, and certifications in the field of cybersecurity.</p>
+        </div>
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Penetration Testing & Ethical Hacking</li>
+                <li>Advanced Threat Intelligence</li>
+                <li>Security Auditing & Compliance</li>
+                <li>Incident Response & Digital Forensics</li>
+            </ul>
+        </div>
+        <div class="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Certified Ethical Hacker (CEH)</li>
+                <li>Offensive Security Certified Professional (OSCP)</li>
+                <li>Certified Information Systems Security Professional (CISSP)</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Krish Sharma. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+

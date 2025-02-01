@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: 'Orbitron', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0d0d0d;
+            color: #00ffcc;
+            text-align: center;
+            background: linear-gradient(to right, #001921, #003366);
+            overflow-x: hidden;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        header, footer {
+            background: rgba(0, 0, 0, 0.9);
+            color: #00ffcc;
+            padding: 20px;
+            text-transform: uppercase;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            color: #00ffcc;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        nav a:hover {
+            color: #ff6600;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: left;
+        }
+        .intro {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+            margin: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .intro:hover {
+            transform: scale(1.05);
+        }
+        a {
+            color: #00ffcc;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #ff6600;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Krish Sharma</h1>
+        <nav>
+            <a href="portfolio.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <h2>About Me</h2>
+            <p>
+                Hi, I'm <strong>Krish Sharma</strong>, a dedicated cybersecurity expert with a passion for ethical hacking, penetration testing, and security research. 
+                My journey into cybersecurity began with a curiosity to understand how systems work and how they can be exploited—and then protected.
+            </p>
+            <p>
+                Over the years, I've honed my skills through hands-on experience and rigorous training. I specialize in identifying vulnerabilities in complex systems, 
+                building robust security protocols, and implementing best practices to safeguard against emerging cyber threats. My goal is to create secure digital environments that foster trust and reliability.
+            </p>
+            <p>
+                I hold several industry-recognized certifications, including <strong>Certified Ethical Hacker (CEH)</strong>, 
+                <strong>Offensive Security Certified Professional (OSCP)</strong>, and <strong>Certified Information Systems Security Professional (CISSP)</strong>.
+                These credentials reflect my commitment to maintaining the highest standards of professional excellence.
+            </p>
+            <p>
+                When I'm not exploring the latest trends in cybersecurity, you can find me mentoring aspiring professionals, contributing to open-source projects, or analyzing real-world security incidents to derive actionable insights.
+            </p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Krish Sharma. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+</html>
